@@ -73,7 +73,7 @@ article {
     }
 }
 h1 {
-
+    max-width: 90%;
 }
 p {
     text-align: justify;
