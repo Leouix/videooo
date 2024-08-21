@@ -4,13 +4,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #a7a7a754;
+    background-color: #6579c554;
     line-height: 1.3;
     margin: 0;
 }
 
 header {
-    background-color: #0056b3;
+    background-color: #00b353;
     color: white;
     padding: 1rem 0;
     text-align: center;
