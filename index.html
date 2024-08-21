@@ -25,15 +25,17 @@
 </head>
 <body>
 
-<h1>Просмотр видео с YouTube</h1>
+<header>
+    <img class="logo" src="logo.webp" alt="vutube Logo">
+    <h1>Просмотр видео с YouTube</h1>
+</header>
 
 <input type="text" id="videoUrl" placeholder="Вставьте URL видео с YouTube">
+
 <button onclick="loadVideo()">Показать видео</button>
 <button id="fullscreenBtn" style="display: none;" onclick="toggleFullScreen()">На весь экран</button>
 
 <div id="videoContainer"></div>
-
-
 
 <article>
     <h1>Доступ к YouTube через специализированные сервисы</h1>
@@ -86,5 +88,9 @@
     }
 </script>
 
+<footer class="container">
+    <p>Автор: weal.cloud@gmail.com</p>
+    <p>&copy; 2024 Видеоплатформа. Все права защищены.</p>
+</footer>
 </body>
 </html>
