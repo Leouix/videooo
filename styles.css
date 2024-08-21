@@ -44,6 +44,11 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     margin: 5px 15px;
+    background: #f66;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
 }
 
 iframe {
