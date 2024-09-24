@@ -103,6 +103,19 @@
             iframe.msRequestFullscreen();
         }
     }
+
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    window.onload = function() {
+        const videoUrlFromParams = getQueryParam('video');
+        if (videoUrlFromParams) {
+            document.getElementById('videoUrl').value = videoUrlFromParams;
+            loadVideo(videoUrlFromParams);
+        }
+    }
 </script>
 
 <footer class="container">
